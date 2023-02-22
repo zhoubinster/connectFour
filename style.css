@@ -1,0 +1,61 @@
+/* style the game board container */
+#game-board {
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+/* style the table */
+.table {
+    display: table;
+    width: 600px;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+.table td {
+  text-align: center;
+}
+
+th {
+  background-color: #71e046;
+  cursor: pointer;
+}
+
+
+/* style the tokens */
+.token-red {
+  background-color: #ff4136;
+}
+
+.token-yellow {
+  background-color: #ffd700;
+}
+
+.token-default {
+  background-color: #4655e0;
+}
+
+.btn {
+    position: relative;
+    display: block;
+    min-width: calc(1.4285714em + 0.875rem + 2px);
+    margin: 0;
+    padding: 0.4375rem 0.75rem;
+    font-size: .875rem;
+    line-height: 1.4285714;
+    color: #656d77;
+    background: #54a633;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid #dadcde;
+    border-radius: 3px;
+    transition: border-color .3s,background .3s,color .3s;
+}
